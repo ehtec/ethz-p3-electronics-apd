@@ -94,6 +94,7 @@ void loop()
         Serial.print(temp_voltage);
         Serial.print(",");
         Serial.print(k);
+        Serial.print(",");
         Serial.print(fan_tacho_voltage);
         Serial.print(",");
         Serial.println(rpm);
